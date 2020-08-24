@@ -1,7 +1,7 @@
 ---
-title: Setup
+title: Raspberry Pi General Purpose Input/Output (GPIO)
 ---
-FIXME
+A brief introduction to the General Purpose Input/Output (GPIO) of the Raspbery Pi.
 
 
 {% include links.md %}

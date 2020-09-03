@@ -1,11 +1,11 @@
 ---
-title: "Permissions"
+title: "Using GPIO Pins for Input"
 teaching: 0
 exercises: 0
 questions:
-- "Key question (FIXME)"
+- "How can GPIO pins get information in?"
 objectives:
-- "First learning objective. (FIXME)"
+- "GPIO pins can detect change of state"
 keypoints:
 - "First key point. Brief Answer to questions. (FIXME)"
 ---

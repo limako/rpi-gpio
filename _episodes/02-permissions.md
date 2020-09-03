@@ -3,12 +3,15 @@ title: "Permissions"
 teaching: 0
 exercises: 0
 questions:
-- "Key question (FIXME)"
+- "What Unix permissions are needed to interact with the GPIO?"
+- "How should permissions be structured for production versus development?"
 objectives:
-- "First learning objective. (FIXME)"
+- "Inspect "
 keypoints:
 - "First key point. Brief Answer to questions. (FIXME)"
 ---
+The interface between the hardware and software of the Raspberry Pi is the linux kernel. The kernel builds a [file system located at /sys](https://man7.org/linux/man-pages/man5/sysfs.5.html) that includes entries that represent all of the physical hardware that the kernel "knows" about. The entries for the GPIO are in /sys/class/gpio.
+
 In early versions of Raspbian, the GPIO could only be accessed by root initially and a series of steps were necessary to assign the GPIO devices permissions that allowed ordinary users to access them. With newer versions of Raspbian, this is not necessary. By default the GPIO devices can be controlled by anyone in the "gpio" unix group. If you have problems with permissions, check to make sure you're in the gpio group and add your account to the group if necessary.
 
 Group memberships appear in /etc/group and you can use grep to do pattern matching:

@@ -1,14 +1,16 @@
 ---
-title: "Permissions"
-teaching: 0
+title: "Using GPIO Pins for Output"
+teaching: 20
 exercises: 0
 questions:
-- "Key question (FIXME)"
+- "How can you use pins to control things?"
 objectives:
-- "First learning objective. (FIXME)"
+- "Learn how to control digital pins via python."
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "You can signal with digital pins."
+- "Don't try to power things with digital pins."
 ---
-In early versions of Raspbian, the GPIO could only be accessed by root initially and a series of steps were necessary to assign the GPIO devices permissions that allowed ordinary users to access them. With newer versions of Raspbian, this is not necessary. By default the GPIO devices can be controlled by anyone in the "gpio" unix group. If you have problems, check to make sure you're in the gpio group and add your account to the group if necessary.
+
+
 
 {% include links.md %}

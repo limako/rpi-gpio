@@ -45,7 +45,7 @@ $ echo "17" > /sys/class/gpio/unexport
 
 The capabilities are limited, however, and not all of the functionality is available using these low-level tools. There is more [complete documentation](https://www.kernel.org/doc/Documentation/gpio/sysfs.txt)
 
-There are 
+There are higher-level libraries that offer more robust ways to interact with the GPIO that we'll be studying next. But it's worth being aware of how the system is put together at the lowest level.
 
 WARNING! raspi-gpio set writes directly to the GPIO control registers
 ignoring whatever else may be using them (such as Linux drivers) -

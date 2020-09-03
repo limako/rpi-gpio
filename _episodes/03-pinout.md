@@ -33,7 +33,7 @@ Some pins are defined for use with serial protocols. These protocols can be enab
 For our first examples, let's hook up an LED to Pin 11 (That's the BOARD numbering scheme -- it will be GPIO 17 using the BGM scheme.)
 
 <a href="{{ page.root }}/fig/gpio_17_med.jpg">
-  <img src="{{ page.root }}/fig/gpio__17_full.jpg" alt="LED connected to GPIO 17" />
+  <img src="{{ page.root }}/fig/gpio_17_full.jpg" alt="LED connected to GPIO 17" />
 </a>
 
 Two female to male connectors are used to connect between the GPIO pins and the breadboard. The connection to ground is connected to one of the bus strips (the lengthwise ground conductor). The GPIO 17 is connected to one of the terminal strips. The LED is connected with the long conductor attached to GPIO 17. The shorter conductor is bridged to ground with a 330mv resistor so that it doesn't draw too much power from the Pi.

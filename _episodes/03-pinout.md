@@ -7,9 +7,9 @@ questions:
 - "What do pins do?"
 - "How can you refer to pins?"
 objectives:
-- "First learning objective. (FIXME)"
+- "Refer to pins physically and programatically"
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "There are 2 separate schemes, BOARD and GBM, for referring to the pins."
 ---
 There are 40 GPIO pins. A great resource for exploring the pins is the [PinoutComprehensive Guide to the Raspberry Pi](https://pinout.xyz/).
 
@@ -24,7 +24,7 @@ The pins have two numbering schemes. The BOARD numbering scheme refers to the ph
 > When referring to connections of physical pins, use the BOARD specification. When calling out pins in software, use the BCM scheme.
 {: .callout}
 
-Some pins have permanently assigned functions. Ground pins are always found pins. There are pins that provide 5v and 3.3v -- always.
+Some pins have permanently assigned functions. Ground pins are always ground pins. There are pins that provide 5v and 3.3v -- always.
 
 Some pins are digital pins with no additional functionality: they can be set to either input or output without concern that using them might impact other functions that might be needed in the future.
 

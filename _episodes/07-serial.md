@@ -1,7 +1,7 @@
 ---
 title: "GPIO for serial connections"
-teaching: 0
-exercises: 0
+teaching: 30
+exercises: 30
 questions:
 - "What kinds of serial connections are there?"
 - "How do you enable serial connections?"
@@ -14,7 +14,7 @@ keypoints:
 ---
 There is a universe of sensors and other devices that can talk over some kind of serial interface. There are several different serial interfaces supported by the Raspberry Pi (depending on exactly what you mean by "serial interface" and "supported"). This high level overview provides an introduction to the kinds of protocols that are supported.
 
-This guide will focus on two of the simplest and most common. The others are similar in principle and vary mostly in the details of how they're implemented.
+This guide will focus on one of the simplest and most common. The others are similar in principle and vary mostly in the details of how they're implemented.
 
 ## 1-wire
 
@@ -83,6 +83,6 @@ except:
 ~~~
 {: .language-python}
 
-This example uses a single device, but you can actually connect multiple devices at the same time that can even use the same pull-up resistor. This makes collecting multiple temperature readings (for example) very simple. 
+This example uses a single device, but you can actually connect multiple devices at the same time that can even use the same pull-up resistor. This makes collecting multiple temperature readings (for example) very simple.
 
 {% include links.md %}

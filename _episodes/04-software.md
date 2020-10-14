@@ -53,10 +53,36 @@ it is designed as a debug tool, only use it if you know what you
 are doing and at your own risk!
 
 The raspi-gpio tool was designed to help hack/debug BCM283x GPIO.
-Running raspi-gpio with the help argument prints this help.
+Running raspi-gpio with the help argument prints an informative help message.
 raspi-gpio can get and print the state of a GPIO (or all GPIOs)
 and can be used to set the function, pulls and value of a GPIO.
 raspi-gpio must be run as root.
 
+There are several high-level libraries for interacting with the GPIO. We're going to use [GPIO Zero](https://gpiozero.readthedocs.io/en/stable/) for most purposes. But it's worth understanding that it is built on top of a lower-level library [RPI.GPIO](https://pypi.org/project/RPi.GPIO/). The higher level library abstracts a lot of the underlying complexity.
+
+Let's do "blink" again, but with the Raspberry Pi.
+
+<a href="{{ page.root }}/fig/gpio_17_med.jpg">
+  <img src="{{ page.root }}/fig/gpio_17_full.jpg" alt="LED connected to GPIO 17" />
+</a>
+
+~~~
+#! /usr/bin/env python3
+
+from gpiozero import LED
+from time import sleep
+
+led = LED(17)
+
+while True:
+    led.on()
+    sleep(1)
+    led.off()
+    sleep(1)
+
+~~~
+{: .language-python}
+
+Note: you may need to install the GPIO Zero and/or RPi.GPIO libraries.
 
 {% include links.md %}

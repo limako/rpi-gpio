@@ -1,17 +1,17 @@
 ---
 title: "Pinout"
-teaching: 0
+teaching: 10
 exercises: 0
 questions:
 - "What pins are available?"
 - "What do pins do?"
 - "How can you refer to pins?"
 objectives:
-- "Refer to pins physically and programatically"
+- "Refer to pins physically and programmatically"
 keypoints:
 - "There are 2 separate schemes, BOARD and GBM, for referring to the pins."
 ---
-There are 40 GPIO pins. A great resource for exploring the pins is the [PinoutComprehensive Guide to the Raspberry Pi](https://pinout.xyz/).
+There are 40 GPIO pins. A great resource for exploring the pins is the [Pinout Comprehensive Guide to the Raspberry Pi](https://pinout.xyz/).
 
 <p align="center"><img src="https://pinout.xyz/resources/raspberry-pi-pinout.png" alt="Raspberry Pi Pinout">
 via [pinout.xyz](https://pinout.xyz/)

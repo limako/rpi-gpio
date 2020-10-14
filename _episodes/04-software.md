@@ -1,15 +1,15 @@
 ---
 title: "GPIO via Bash"
-teaching: 0
-exercises: 0
+teaching: 30
+exercises: 20
 questions:
-- "How "
+- "How can you interact with the GPIO?"
 - "What do pins do?"
 - "How can you refer to pins?"
 objectives:
-- "First learning objective. (FIXME)"
+- "Understand relationship between the physical (pins) and virtual (file-system)"
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "GPIO elements appear in the Raspberry Pi file-system and can be easily inspected/modified."
 ---
 It is possible to access the GPIO directly via the command line using bash commands to configure and manipulate the devices directly via the linux kernel.
 

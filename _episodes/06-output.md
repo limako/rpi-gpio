@@ -1,7 +1,7 @@
 ---
 title: "Using GPIO Pins for Output"
 teaching: 20
-exercises: 0
+exercises: 20
 questions:
 - "How can you use pins to control things?"
 objectives:

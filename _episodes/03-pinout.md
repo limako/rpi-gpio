@@ -1,6 +1,6 @@
 ---
 title: "Pinout"
-teaching: 10
+teaching: 20
 exercises: 0
 questions:
 - "What pins are available?"

@@ -5,7 +5,7 @@ exercises: 0
 questions:
 - "How can Raspberry Pi interact with other devices?"
 objectives:
-- "First learning objective. (FIXME)"
+- "Raspberry Pi can interact via many different interfaces"
 keypoints:
 - "Raspberry Pi supports many means of connecting to other devices."
 - "The GPIO offers digital pins that can be configured for many purposes."

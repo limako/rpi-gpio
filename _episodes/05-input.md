@@ -31,7 +31,12 @@ pause()
 ~~~
 {: .language-python}
 
-In this example, the LED stays lit as long as the button is pressed. But you could just as easily have each button press turn it on or off.
+In this example, the LED stays lit as long as the button is pressed. But you could just as easily have each button press turn it on or off. I fact…
+
+> ## Try this:
+>
+> Modify the program to turn the LED with one button press and turn it off with another. Extra credit for checking state (to make sure its off before turning it on.)
+{: .challenge}
 
 Some analog devices come with a "digital pin" that works with a threshold, meaning that if the value being measured exceeds some target, the pin turns on. Sometimes this is sufficient, e.g. an alarm. Or a trigger. For actually collecting analog data, however, you would need to use an analog-to-digital converter. Or select a sensor that communicates over a serial interface.
 

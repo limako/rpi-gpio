@@ -30,7 +30,7 @@ Some pins are digital pins with no additional functionality: they can be set to 
 
 Some pins are defined for use with serial protocols. These protocols can be enabled by running raspi-config which adds lines to /boot/config.txt that the kernel consults when the system boots and uses to load a kernel module that expects to use specific pins. Each protocol will expect particular pins to serve specific functions. It's fine to use these pins for other purposes if a particular serial protocol isn't going to be needed.
 
-For our first examples, let's hook up an LED to Pin 11 (That's the BOARD numbering scheme -- it will be GPIO 17 using the BGM scheme.)
+For our first examples, let's hook up an LED to Pin 11 (That's the BOARD numbering scheme -- it will be GPIO 17 using the BCM scheme.)
 
 <a href="{{ page.root }}/fig/gpio_17_med.jpg">
   <img src="{{ page.root }}/fig/gpio_17_full.jpg" alt="LED connected to GPIO 17" />

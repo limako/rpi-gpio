@@ -1,6 +1,6 @@
 ---
 title: "Permissions"
-teaching: 0
+teaching: 20
 exercises: 0
 questions:
 - "What Unix permissions are needed to interact with the GPIO?"
